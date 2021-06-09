@@ -1,4 +1,4 @@
-# Torognes Bioinf
+# Homebrew formulae for Bioinformatics 
 
 ## How do I install these formulae?
 
