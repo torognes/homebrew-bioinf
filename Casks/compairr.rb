@@ -1,12 +1,12 @@
 cask "compairr" do
-  version "1.0.2"
+  version "1.4.1"
 
   if Hardware::CPU.intel?
     url "https://github.com/uio-bmi/compairr/releases/download/v#{version}/compairr-#{version}-macos-x86_64"
-    sha256 "8a65a47c8baeda74bc409ba775a66480fe545e8cffcadfa7ea18d89e4c501f11"
+    sha256 "1b1d5171af0f23e682eb877c8e7c14fd7086ef5495c47e11f09784690c7283bc"
   else
     url "https://github.com/uio-bmi/compairr/releases/download/v#{version}/compairr-#{version}-macos-arm64"
-    sha256 "4745615c521f9bc586f7fbbab8b7907e3adbfb2f1167b9dd07047faad32d199d"
+    sha256 "c9497200ead37a26ee7360a6b9bb1d6bcd0a05d6946de486312a83453267074d"
   end
 
   name "CompAIRR"
