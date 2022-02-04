@@ -1,13 +1,13 @@
 class Compairr < Formula
   desc "Compare Adaptive Immune Receptor Repertoires"
   homepage "https://github.com/uio-bmi/compairr"
-  url "https://github.com/uio-bmi/compairr/archive/refs/tags/v1.6.0.tar.gz"
-  sha256 "ae591548591900f30097bda6134ecb6f422df15de105dbf8809562a7cbd3c44b"
+  url "https://github.com/uio-bmi/compairr/archive/refs/tags/v1.6.1.tar.gz"
+  sha256 "c9531df97c2610f28fb76a33f015ffa5d3759d29295a56d69116ce06005c02e5"
   license "AGPL-3.0-or-later"
 
   resource("source") do
-    url "https://github.com/uio-bmi/compairr/archive/refs/tags/v1.6.0.tar.gz"
-    sha256 "ae591548591900f30097bda6134ecb6f422df15de105dbf8809562a7cbd3c44b"
+    url "https://github.com/uio-bmi/compairr/archive/refs/tags/v1.6.1.tar.gz"
+    sha256 "c9531df97c2610f28fb76a33f015ffa5d3759d29295a56d69116ce06005c02e5"
   end
 
   def install
