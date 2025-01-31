@@ -1,5 +1,10 @@
 # Homebrew formulae for Bioinformatics 
 
+## Available formulae and tasks
+
+* compairr
+
+
 ## How do I install these formulae?
 
 `brew install torognes/bioinf/<formula>`
