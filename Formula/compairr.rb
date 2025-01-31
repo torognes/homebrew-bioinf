@@ -16,7 +16,8 @@ class Compairr < Formula
 
   test do
     resource("source").stage do
-      system "#{bin}/compairr", "-m", "test/seta.tsv", "test/setb.tsv", "-d", "1", "-l", "compairr.log", "-o", "output.tsv"
+      system "#{bin}/compairr", "-m", "test/seta.tsv", "test/setb.tsv", "-d",
+             "1", "-l", "compairr.log", "-o", "output.tsv"
       system "diff", "-q", "output.tsv", "test/expected.tsv"
       ohai "Test completed successfully!"
     end
